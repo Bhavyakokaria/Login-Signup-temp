@@ -1,4 +1,120 @@
-.info{
-    text-decoration: none;
+body{
+    background-image: url(image.jpg);
 }
+
+h1{
+    color: black;
+    font: arial;
+}
+
+.greet{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 175px;
+    margin-top: 200px;
+    font: bolder;
+}
+
+.greet2{
+    color: aliceblue;
+    font-size: 25px;
+    font: bold;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+@keyframes slideInText {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.greet, .greet2{
+  animation: slideInText 1s ease-out forwards;
+}
+
+
+#log{
+    text-align: center;
+    font-size: 20px;
+}
+
+.info{
+    background-color: beige;
+    width: 530px;
+    height: 535px;
+    position: absolute;
+    right: 7px;
+    top:7px;
+    padding: 20px;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 0.8;
+  }
+}
+
+.info{
+  animation: slideIn 1s ease-out forwards;
+}
+
+#sub{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#one{
+    margin-left: 10px;
+    width: 100px;
+    background-color: beige;
+}
+
+#one:hover{
+    background-color: rgb(177, 173, 173);
+}
+
+#box{
+    margin-top: 25px;
+    font-size: 20px;
+    display: inline
+}
+
+button{
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #d1ab03;
+    margin-top: 30PX;
+    margin-left: 110PX;
+    border-radius: 25PX;
+}
+button:hover{
+    background-color: #8f7502;
+}
+
+a{
+    display: inline;
+    margin-left: 400px;
+    color: blue;
+}
+a:hover{
+    color: purple;
+}
+
 

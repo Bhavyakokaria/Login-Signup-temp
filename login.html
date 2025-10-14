@@ -7,28 +7,31 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div>
-        <header>
-            <h1>Login</h1>
-            <p>Wlecome back! Please login to your account.</p>
+    <p class="greet">Wlecome back!</p>
+    <p class="greet2">Please, Log-in or Sign-up for your account.</p>
+    <div class="info">
+        <header id="log">
+            <h1>Log-in / Sign-up</h1>
+            <h4>Fill the following information</h4>
         </header>
         <main>
             <form action="/action/.php">
-                <div class="info">
-                    <fieldset>
-                        <legend>User Name/Email-id</legend>
-                        <legend>
+                <div>
+                    <label>
+                        <legend id="sub">User Name/Email-id</legend>
+                        <legend id="one">
                             <input type="text">
                         </legend>
-                        <legend>Password</legend>
-                        <legend>
-                            <input type="password" name="info">
+                        <legend id="sub">Password</legend>
+                        <legend id="one">
+                            <input type="password" name="password">
                         </legend>
-                        <legend>
+                        <legend id="box">
                             <input type="checkbox" value="Remember me" name="info">Remember me
                         </legend>
-                            <a href="#">Forgot password?</a>
-                    </fieldset>
+                        <a href="#">Forgot password?</a>
+                        <button>Log-in / Sign-up</button>
+                    </label>
                 </div>
             </form>
         </main>
