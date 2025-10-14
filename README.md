@@ -1,2 +1,2 @@
 # Login-Signup-temp
-My first step towards open cotributon for hacktober
+My first step towards open contribution for hacktober
